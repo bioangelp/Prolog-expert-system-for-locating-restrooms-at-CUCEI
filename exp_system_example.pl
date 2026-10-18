@@ -26,8 +26,6 @@ analisis(bano_frente_al_modulo_v2)             :- bano_frente_al_modulo_v2, !.
 analisis(bano_modulo_v)                        :- bano_modulo_v, !.
 analisis(bano_modulo_x_abajo)                  :- bano_modulo_x_abajo, !.
 analisis(bano_modulo_x_arriba)                 :- bano_modulo_x_arriba, !.
-
-% --- ZONA ULISES---
 analisis(bano_modulo_m)                        :- bano_modulo_m, !.
 analisis(bano_modulo_n)                        :- bano_modulo_n, !.
 analisis(bano_modulo_p)                        :- bano_modulo_p, !.
@@ -142,7 +140,6 @@ bano_modulo_x_arriba :-
     verificar('Estas cerca del modulo X'),
     write('Te recomiendo ir al ba\xF1\o del modulo X arriba.'), nl.
 
-% --- REGLAS ULISES---
 bano_modulo_m :-
     verificar('Te importa que el ba\xF1\o este limpio'),
     verificar('Estas cerca del modulo M'),
